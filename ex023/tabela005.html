@@ -25,8 +25,12 @@
             padding: 8px;
         }
 
-        .destaque {
+        col.cnome {
             background-color: greenyellow;
+        }
+
+        col.csexo {
+            background-color: yellow;
         }
     </style>
 </head>
@@ -34,6 +38,12 @@
     <h1>Exercicios de Tabelas</h1>
 
     <table>
+        <colgroup> 
+            <col class="cnome">
+            <col class="csexo">
+            <col class="cidade">
+            <col class="cprof">
+        </colgroup>
         <caption>Cadastro</caption>
         <tr>
             <th scope="col">Nome</th>
